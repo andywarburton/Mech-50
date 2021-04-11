@@ -1,0 +1,3449 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 1 1
+Title "Mech 50 Ortholinear Keyboard"
+Date "2021-02-27"
+Rev "0.1"
+Comp "aintnocompanyltd"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L keebio:MX S-A1
+U 1 1 603B1B93
+P 7650 2450
+F 0 "S-A1" H 7650 2673 50  0000 C CNN
+F 1 "MX" H 7650 2150 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 7650 2450 60  0001 C CNN
+F 3 "" H 7650 2450 60  0001 C CNN
+	1    7650 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-A2
+U 1 1 603B6A66
+P 8850 2450
+F 0 "S-A2" H 8850 2673 50  0000 C CNN
+F 1 "MX" H 8850 2150 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 8850 2450 60  0001 C CNN
+F 3 "" H 8850 2450 60  0001 C CNN
+	1    8850 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-B1
+U 1 1 603BAAB7
+P 7650 4000
+F 0 "S-B1" H 7650 4223 50  0000 C CNN
+F 1 "MX" H 7650 3700 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 7650 4000 60  0001 C CNN
+F 3 "" H 7650 4000 60  0001 C CNN
+	1    7650 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-B2
+U 1 1 603BB9CC
+P 8850 4000
+F 0 "S-B2" H 8850 4223 50  0000 C CNN
+F 1 "MX" H 8850 3700 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 8850 4000 60  0001 C CNN
+F 3 "" H 8850 4000 60  0001 C CNN
+	1    8850 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-C1
+U 1 1 603C9A1B
+P 6450 5750
+F 0 "S-C1" H 6450 5973 50  0000 C CNN
+F 1 "MX" H 6450 5450 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 6450 5750 60  0001 C CNN
+F 3 "" H 6450 5750 60  0001 C CNN
+	1    6450 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-C2
+U 1 1 603CAE27
+P 7050 5750
+F 0 "D-C2" H 7050 5967 50  0000 C CNN
+F 1 "1N4148" H 7050 5876 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7050 5575 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7050 5750 50  0001 C CNN
+	1    7050 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-C2
+U 1 1 603CBFE9
+P 7650 5750
+F 0 "S-C2" H 7650 5973 50  0000 C CNN
+F 1 "MX" H 7650 5450 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 7650 5750 60  0001 C CNN
+F 3 "" H 7650 5750 60  0001 C CNN
+	1    7650 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-C3
+U 1 1 603CCC7E
+P 8250 5750
+F 0 "D-C3" H 8250 5967 50  0000 C CNN
+F 1 "1N4148" H 8250 5876 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8250 5575 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8250 5750 50  0001 C CNN
+	1    8250 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-C3
+U 1 1 603CE296
+P 8850 5750
+F 0 "S-C3" H 8850 5973 50  0000 C CNN
+F 1 "MX" H 8850 5450 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 8850 5750 60  0001 C CNN
+F 3 "" H 8850 5750 60  0001 C CNN
+	1    8850 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-C4
+U 1 1 603CEE44
+P 9450 5750
+F 0 "D-C4" H 9450 5967 50  0000 C CNN
+F 1 "1N4148" H 9450 5876 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9450 5575 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9450 5750 50  0001 C CNN
+	1    9450 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-D1
+U 1 1 603CFF1F
+P 6450 7450
+F 0 "S-D1" H 6450 7673 50  0000 C CNN
+F 1 "MX" H 6450 7150 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 6450 7450 60  0001 C CNN
+F 3 "" H 6450 7450 60  0001 C CNN
+	1    6450 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-D2
+U 1 1 603D10CE
+P 7050 7450
+F 0 "D-D2" H 7050 7667 50  0000 C CNN
+F 1 "1N4148" H 7050 7576 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7050 7275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7050 7450 50  0001 C CNN
+	1    7050 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-D2
+U 1 1 603D23C5
+P 7650 7450
+F 0 "S-D2" H 7650 7673 50  0000 C CNN
+F 1 "MX" H 7650 7150 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 7650 7450 60  0001 C CNN
+F 3 "" H 7650 7450 60  0001 C CNN
+	1    7650 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-D3
+U 1 1 603D31E2
+P 8850 7450
+F 0 "S-D3" H 8850 7673 50  0000 C CNN
+F 1 "MX" H 8850 7150 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 8850 7450 60  0001 C CNN
+F 3 "" H 8850 7450 60  0001 C CNN
+	1    8850 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-D3
+U 1 1 603D3F6F
+P 8250 7450
+F 0 "D-D3" H 8250 7667 50  0000 C CNN
+F 1 "1N4148" H 8250 7576 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8250 7275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8250 7450 50  0001 C CNN
+	1    8250 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-D4
+U 1 1 603D54A1
+P 9450 7450
+F 0 "D-D4" H 9450 7667 50  0000 C CNN
+F 1 "1N4148" H 9450 7576 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9450 7275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9450 7450 50  0001 C CNN
+	1    9450 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-A3
+U 1 1 603D6CB4
+P 10000 2450
+F 0 "S-A3" H 10000 2673 50  0000 C CNN
+F 1 "MX" H 10000 2150 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 10000 2450 60  0001 C CNN
+F 3 "" H 10000 2450 60  0001 C CNN
+	1    10000 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-B3
+U 1 1 603D7F93
+P 10000 4000
+F 0 "S-B3" H 10000 4223 50  0000 C CNN
+F 1 "MX" H 10000 3700 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 10000 4000 60  0001 C CNN
+F 3 "" H 10000 4000 60  0001 C CNN
+	1    10000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-C4
+U 1 1 603D90CA
+P 10000 5750
+F 0 "S-C4" H 10000 5973 50  0000 C CNN
+F 1 "MX" H 10000 5450 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 10000 5750 60  0001 C CNN
+F 3 "" H 10000 5750 60  0001 C CNN
+	1    10000 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-D4
+U 1 1 603D9F64
+P 10000 7450
+F 0 "S-D4" H 10000 7673 50  0000 C CNN
+F 1 "MX" H 10000 7150 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 10000 7450 60  0001 C CNN
+F 3 "" H 10000 7450 60  0001 C CNN
+	1    10000 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-A0
+U 1 1 603AB1F5
+P 6450 2450
+F 0 "S-A0" H 6450 2673 50  0000 C CNN
+F 1 "MX" H 6450 2150 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 6450 2450 60  0001 C CNN
+F 3 "" H 6450 2450 60  0001 C CNN
+	1    6450 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 5750 6750 7450
+Connection ~ 6750 5750
+Wire Wire Line
+	7350 4000 7400 4000
+Wire Wire Line
+	8400 4000 8550 4000
+Wire Wire Line
+	7200 5750 7200 7450
+Connection ~ 7200 5750
+Wire Wire Line
+	7950 4000 7950 5750
+Wire Wire Line
+	7950 5750 7950 7450
+Connection ~ 7950 5750
+Wire Wire Line
+	9150 2450 9150 4000
+Wire Wire Line
+	9150 4000 9150 5750
+Connection ~ 9150 4000
+Wire Wire Line
+	9150 5750 9150 7450
+Connection ~ 9150 5750
+Wire Wire Line
+	10300 2450 10300 4000
+Wire Wire Line
+	10300 4000 10300 5750
+Connection ~ 10300 4000
+Wire Wire Line
+	10300 5750 10300 7450
+Connection ~ 10300 5750
+Wire Wire Line
+	7200 5750 7350 5750
+Wire Wire Line
+	7200 7450 7350 7450
+Connection ~ 7200 7450
+Wire Wire Line
+	8400 5750 8550 5750
+Wire Wire Line
+	8400 7450 8550 7450
+$Comp
+L keebio:MX S-E1
+U 1 1 603E3463
+P 6450 9600
+F 0 "S-E1" H 6450 9823 50  0000 C CNN
+F 1 "MX" H 6450 9300 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 6450 9600 60  0001 C CNN
+F 3 "" H 6450 9600 60  0001 C CNN
+	1    6450 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-E2
+U 1 1 603E346D
+P 7650 9600
+F 0 "S-E2" H 7650 9823 50  0000 C CNN
+F 1 "MX" H 7650 9300 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 7650 9600 60  0001 C CNN
+F 3 "" H 7650 9600 60  0001 C CNN
+	1    7650 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-E3
+U 1 1 603E3477
+P 8850 9600
+F 0 "S-E3" H 8850 9823 50  0000 C CNN
+F 1 "MX" H 8850 9300 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 8850 9600 60  0001 C CNN
+F 3 "" H 8850 9600 60  0001 C CNN
+	1    8850 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-E4
+U 1 1 603E34BD
+P 10000 9600
+F 0 "S-E4" H 10000 9823 50  0000 C CNN
+F 1 "MX" H 10000 9300 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 10000 9600 60  0001 C CNN
+F 3 "" H 10000 9600 60  0001 C CNN
+	1    10000 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-E2
+U 1 1 603F9024
+P 7050 9600
+F 0 "D-E2" H 7050 9817 50  0000 C CNN
+F 1 "1N4148" H 7050 9726 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7050 9425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7050 9600 50  0001 C CNN
+	1    7050 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-E3
+U 1 1 603FA2B6
+P 8250 9600
+F 0 "D-E3" H 8250 9817 50  0000 C CNN
+F 1 "1N4148" H 8250 9726 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8250 9425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8250 9600 50  0001 C CNN
+	1    8250 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-E4
+U 1 1 603FBBB9
+P 9450 9600
+F 0 "D-E4" H 9450 9817 50  0000 C CNN
+F 1 "1N4148" H 9450 9726 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9450 9425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9450 9600 50  0001 C CNN
+	1    9450 9600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 9600 7350 9600
+Wire Wire Line
+	8400 9600 8550 9600
+Wire Wire Line
+	10300 7450 10300 9600
+Connection ~ 10300 7450
+Wire Wire Line
+	9150 7450 9150 9600
+Connection ~ 9150 7450
+Wire Wire Line
+	7950 7450 7950 9600
+Connection ~ 7950 7450
+Wire Wire Line
+	6750 7450 6750 9600
+Connection ~ 6750 7450
+$Comp
+L keebio:MX S-A4
+U 1 1 6041B609
+P 11250 2450
+F 0 "S-A4" H 11250 2673 50  0000 C CNN
+F 1 "MX" H 11250 2150 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 11250 2450 60  0001 C CNN
+F 3 "" H 11250 2450 60  0001 C CNN
+	1    11250 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-A5
+U 1 1 6041B613
+P 11850 2450
+F 0 "D-A5" H 11850 2667 50  0000 C CNN
+F 1 "1N4148" H 11850 2576 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 11850 2275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11850 2450 50  0001 C CNN
+	1    11850 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-A5
+U 1 1 6041B61D
+P 12450 2450
+F 0 "S-A5" H 12450 2673 50  0000 C CNN
+F 1 "MX" H 12450 2150 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 12450 2450 60  0001 C CNN
+F 3 "" H 12450 2450 60  0001 C CNN
+	1    12450 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-A6
+U 1 1 6041B627
+P 13050 2450
+F 0 "D-A6" H 13050 2667 50  0000 C CNN
+F 1 "1N4148" H 13050 2576 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 13050 2275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 13050 2450 50  0001 C CNN
+	1    13050 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-B4
+U 1 1 6041B631
+P 11250 4000
+F 0 "S-B4" H 11250 4223 50  0000 C CNN
+F 1 "MX" H 11250 3700 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 11250 4000 60  0001 C CNN
+F 3 "" H 11250 4000 60  0001 C CNN
+	1    11250 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-B5
+U 1 1 6041B63B
+P 12450 4000
+F 0 "S-B5" H 12450 4223 50  0000 C CNN
+F 1 "MX" H 12450 3700 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 12450 4000 60  0001 C CNN
+F 3 "" H 12450 4000 60  0001 C CNN
+	1    12450 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-B4
+U 1 1 6041B645
+P 10650 4000
+F 0 "D-B4" H 10650 4217 50  0000 C CNN
+F 1 "1N4148" H 10650 4126 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10650 3825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10650 4000 50  0001 C CNN
+	1    10650 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-B5
+U 1 1 6041B64F
+P 11850 4000
+F 0 "D-B5" H 11850 4217 50  0000 C CNN
+F 1 "1N4148" H 11850 4126 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 11850 3825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11850 4000 50  0001 C CNN
+	1    11850 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-B6
+U 1 1 6041B659
+P 13050 4000
+F 0 "D-B6" H 13050 4217 50  0000 C CNN
+F 1 "1N4148" H 13050 4126 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 13050 3825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 13050 4000 50  0001 C CNN
+	1    13050 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-C5
+U 1 1 6041B663
+P 10650 5750
+F 0 "D-C5" H 10650 5967 50  0000 C CNN
+F 1 "1N4148" H 10650 5876 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10650 5575 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10650 5750 50  0001 C CNN
+	1    10650 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-C5
+U 1 1 6041B66D
+P 11250 5750
+F 0 "S-C5" H 11250 5973 50  0000 C CNN
+F 1 "MX" H 11250 5450 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 11250 5750 60  0001 C CNN
+F 3 "" H 11250 5750 60  0001 C CNN
+	1    11250 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-C6
+U 1 1 6041B677
+P 11850 5750
+F 0 "D-C6" H 11850 5967 50  0000 C CNN
+F 1 "1N4148" H 11850 5876 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 11850 5575 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11850 5750 50  0001 C CNN
+	1    11850 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-C6
+U 1 1 6041B681
+P 12450 5750
+F 0 "S-C6" H 12450 5973 50  0000 C CNN
+F 1 "MX" H 12450 5450 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 12450 5750 60  0001 C CNN
+F 3 "" H 12450 5750 60  0001 C CNN
+	1    12450 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-C7
+U 1 1 6041B68B
+P 13050 5750
+F 0 "D-C7" H 13050 5967 50  0000 C CNN
+F 1 "1N4148" H 13050 5876 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 13050 5575 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 13050 5750 50  0001 C CNN
+	1    13050 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-D5
+U 1 1 6041B695
+P 10650 7450
+F 0 "D-D5" H 10650 7667 50  0000 C CNN
+F 1 "1N4148" H 10650 7576 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10650 7275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10650 7450 50  0001 C CNN
+	1    10650 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-D5
+U 1 1 6041B69F
+P 11250 7450
+F 0 "S-D5" H 11250 7673 50  0000 C CNN
+F 1 "MX" H 11250 7150 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 11250 7450 60  0001 C CNN
+F 3 "" H 11250 7450 60  0001 C CNN
+	1    11250 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-D6
+U 1 1 6041B6A9
+P 12450 7450
+F 0 "S-D6" H 12450 7673 50  0000 C CNN
+F 1 "MX" H 12450 7150 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 12450 7450 60  0001 C CNN
+F 3 "" H 12450 7450 60  0001 C CNN
+	1    12450 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-D6
+U 1 1 6041B6B3
+P 11850 7450
+F 0 "D-D6" H 11850 7667 50  0000 C CNN
+F 1 "1N4148" H 11850 7576 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 11850 7275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11850 7450 50  0001 C CNN
+	1    11850 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-D7
+U 1 1 6041B6BD
+P 13050 7450
+F 0 "D-D7" H 13050 7667 50  0000 C CNN
+F 1 "1N4148" H 13050 7576 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 13050 7275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 13050 7450 50  0001 C CNN
+	1    13050 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-A6
+U 1 1 6041B6C7
+P 13650 2450
+F 0 "S-A6" H 13650 2673 50  0000 C CNN
+F 1 "MX" H 13650 2150 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 13650 2450 60  0001 C CNN
+F 3 "" H 13650 2450 60  0001 C CNN
+	1    13650 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-B6
+U 1 1 6041B6D1
+P 13650 4000
+F 0 "S-B6" H 13650 4223 50  0000 C CNN
+F 1 "MX" H 13650 3700 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 13650 4000 60  0001 C CNN
+F 3 "" H 13650 4000 60  0001 C CNN
+	1    13650 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-C7
+U 1 1 6041B6DB
+P 13650 5750
+F 0 "S-C7" H 13650 5973 50  0000 C CNN
+F 1 "MX" H 13650 5450 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 13650 5750 60  0001 C CNN
+F 3 "" H 13650 5750 60  0001 C CNN
+	1    13650 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-D7
+U 1 1 6041B6E5
+P 13650 7450
+F 0 "S-D7" H 13650 7673 50  0000 C CNN
+F 1 "MX" H 13650 7150 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 13650 7450 60  0001 C CNN
+F 3 "" H 13650 7450 60  0001 C CNN
+	1    13650 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 2450 10950 2450
+Wire Wire Line
+	12000 2450 12150 2450
+Wire Wire Line
+	13200 2450 13350 2450
+Wire Wire Line
+	10800 4000 10950 4000
+Wire Wire Line
+	10950 4000 11000 4000
+Connection ~ 10950 4000
+Wire Wire Line
+	12000 4000 12150 4000
+Wire Wire Line
+	13200 4000 13350 4000
+Wire Wire Line
+	11550 2450 11550 4000
+Wire Wire Line
+	11550 4000 11550 5750
+Connection ~ 11550 4000
+Wire Wire Line
+	11550 5750 11550 7450
+Connection ~ 11550 5750
+Wire Wire Line
+	12750 2450 12750 4000
+Wire Wire Line
+	12750 4000 12750 5750
+Connection ~ 12750 4000
+Wire Wire Line
+	12750 5750 12750 7450
+Connection ~ 12750 5750
+Wire Wire Line
+	13950 2450 13950 4000
+Wire Wire Line
+	13950 4000 13950 5750
+Connection ~ 13950 4000
+Wire Wire Line
+	13950 5750 13950 7450
+Connection ~ 13950 5750
+Wire Wire Line
+	10800 5750 10950 5750
+Wire Wire Line
+	10800 7450 10950 7450
+Wire Wire Line
+	12000 5750 12150 5750
+Wire Wire Line
+	12000 7450 12150 7450
+Wire Wire Line
+	13200 5750 13350 5750
+Wire Wire Line
+	13200 7450 13350 7450
+$Comp
+L keebio:MX S-E5
+U 1 1 6041B744
+P 11250 9600
+F 0 "S-E5" H 11250 9823 50  0000 C CNN
+F 1 "MX" H 11250 9300 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 11250 9600 60  0001 C CNN
+F 3 "" H 11250 9600 60  0001 C CNN
+	1    11250 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-E6
+U 1 1 6041B74E
+P 12450 9600
+F 0 "S-E6" H 12450 9823 50  0000 C CNN
+F 1 "MX" H 12450 9300 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-2u-LED" H 12450 9600 60  0001 C CNN
+F 3 "" H 12450 9600 60  0001 C CNN
+	1    12450 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-E5
+U 1 1 6041B762
+P 10650 9600
+F 0 "D-E5" H 10650 9817 50  0000 C CNN
+F 1 "1N4148" H 10650 9726 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10650 9425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10650 9600 50  0001 C CNN
+	1    10650 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-E6
+U 1 1 6041B76C
+P 11850 9600
+F 0 "D-E6" H 11850 9817 50  0000 C CNN
+F 1 "1N4148" H 11850 9726 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 11850 9425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11850 9600 50  0001 C CNN
+	1    11850 9600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 9600 10950 9600
+Wire Wire Line
+	12000 9600 12150 9600
+Connection ~ 13950 7450
+Wire Wire Line
+	12750 7450 12750 9600
+Connection ~ 12750 7450
+Wire Wire Line
+	11550 7450 11550 9600
+Connection ~ 11550 7450
+Wire Wire Line
+	9600 4000 9700 4000
+Wire Wire Line
+	9600 5750 9700 5750
+Wire Wire Line
+	9600 7450 9700 7450
+Wire Wire Line
+	9600 9600 9700 9600
+$Comp
+L Diode:1N4148 D-A7
+U 1 1 6054F978
+P 14300 2450
+F 0 "D-A7" H 14300 2667 50  0000 C CNN
+F 1 "1N4148" H 14300 2576 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 14300 2275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 14300 2450 50  0001 C CNN
+	1    14300 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-A7
+U 1 1 6054F982
+P 14900 2450
+F 0 "S-A7" H 14900 2673 50  0000 C CNN
+F 1 "MX" H 14900 2150 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 14900 2450 60  0001 C CNN
+F 3 "" H 14900 2450 60  0001 C CNN
+	1    14900 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-A8
+U 1 1 6054F98C
+P 15500 2450
+F 0 "D-A8" H 15500 2667 50  0000 C CNN
+F 1 "1N4148" H 15500 2576 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 15500 2275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 15500 2450 50  0001 C CNN
+	1    15500 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-B7
+U 1 1 6054F996
+P 14900 4000
+F 0 "S-B7" H 14900 4223 50  0000 C CNN
+F 1 "MX" H 14900 3700 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 14900 4000 60  0001 C CNN
+F 3 "" H 14900 4000 60  0001 C CNN
+	1    14900 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-B7
+U 1 1 6054F9A0
+P 14300 4000
+F 0 "D-B7" H 14300 4217 50  0000 C CNN
+F 1 "1N4148" H 14300 4126 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 14300 3825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 14300 4000 50  0001 C CNN
+	1    14300 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-B8
+U 1 1 6054F9AA
+P 15500 4000
+F 0 "D-B8" H 15500 4217 50  0000 C CNN
+F 1 "1N4148" H 15500 4126 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 15500 3825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 15500 4000 50  0001 C CNN
+	1    15500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-C8
+U 1 1 6054F9B4
+P 14300 5750
+F 0 "D-C8" H 14300 5967 50  0000 C CNN
+F 1 "1N4148" H 14300 5876 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 14300 5575 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 14300 5750 50  0001 C CNN
+	1    14300 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-C8
+U 1 1 6054F9BE
+P 14900 5750
+F 0 "S-C8" H 14900 5973 50  0000 C CNN
+F 1 "MX" H 14900 5450 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 14900 5750 60  0001 C CNN
+F 3 "" H 14900 5750 60  0001 C CNN
+	1    14900 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-C9
+U 1 1 6054F9C8
+P 15500 5750
+F 0 "D-C9" H 15500 5967 50  0000 C CNN
+F 1 "1N4148" H 15500 5876 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 15500 5575 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 15500 5750 50  0001 C CNN
+	1    15500 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-D8
+U 1 1 6054F9D2
+P 14900 7450
+F 0 "S-D8" H 14900 7673 50  0000 C CNN
+F 1 "MX" H 14900 7150 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 14900 7450 60  0001 C CNN
+F 3 "" H 14900 7450 60  0001 C CNN
+	1    14900 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-D8
+U 1 1 6054F9DC
+P 14300 7450
+F 0 "D-D8" H 14300 7667 50  0000 C CNN
+F 1 "1N4148" H 14300 7576 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 14300 7275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 14300 7450 50  0001 C CNN
+	1    14300 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-D9
+U 1 1 6054F9E6
+P 15500 7450
+F 0 "D-D9" H 15500 7667 50  0000 C CNN
+F 1 "1N4148" H 15500 7576 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 15500 7275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 15500 7450 50  0001 C CNN
+	1    15500 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-A8
+U 1 1 6054F9F0
+P 16050 2450
+F 0 "S-A8" H 16050 2673 50  0000 C CNN
+F 1 "MX" H 16050 2150 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 16050 2450 60  0001 C CNN
+F 3 "" H 16050 2450 60  0001 C CNN
+	1    16050 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-B8
+U 1 1 6054F9FA
+P 16050 4000
+F 0 "S-B8" H 16050 4223 50  0000 C CNN
+F 1 "MX" H 16050 3700 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 16050 4000 60  0001 C CNN
+F 3 "" H 16050 4000 60  0001 C CNN
+	1    16050 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-C9
+U 1 1 6054FA04
+P 16050 5750
+F 0 "S-C9" H 16050 5973 50  0000 C CNN
+F 1 "MX" H 16050 5450 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 16050 5750 60  0001 C CNN
+F 3 "" H 16050 5750 60  0001 C CNN
+	1    16050 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-D9
+U 1 1 6054FA0E
+P 16050 7450
+F 0 "S-D9" H 16050 7673 50  0000 C CNN
+F 1 "MX" H 16050 7150 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 16050 7450 60  0001 C CNN
+F 3 "" H 16050 7450 60  0001 C CNN
+	1    16050 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14450 2450 14600 2450
+Wire Wire Line
+	14450 4000 14600 4000
+Wire Wire Line
+	15200 2450 15200 4000
+Wire Wire Line
+	15200 4000 15200 5750
+Connection ~ 15200 4000
+Wire Wire Line
+	15200 5750 15200 7450
+Connection ~ 15200 5750
+Wire Wire Line
+	16350 2450 16350 4000
+Wire Wire Line
+	16350 4000 16350 5750
+Connection ~ 16350 4000
+Wire Wire Line
+	16350 5750 16350 7450
+Connection ~ 16350 5750
+Wire Wire Line
+	14450 5750 14600 5750
+Wire Wire Line
+	14450 7450 14600 7450
+$Comp
+L keebio:MX S-E8
+U 1 1 6054FA3F
+P 14900 9600
+F 0 "S-E8" H 14900 9823 50  0000 C CNN
+F 1 "MX" H 14900 9300 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 14900 9600 60  0001 C CNN
+F 3 "" H 14900 9600 60  0001 C CNN
+	1    14900 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-E9
+U 1 1 6054FA49
+P 16050 9600
+F 0 "S-E9" H 16050 9823 50  0000 C CNN
+F 1 "MX" H 16050 9300 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 16050 9600 60  0001 C CNN
+F 3 "" H 16050 9600 60  0001 C CNN
+	1    16050 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-E8
+U 1 1 6054FA53
+P 14300 9600
+F 0 "D-E8" H 14300 9817 50  0000 C CNN
+F 1 "1N4148" H 14300 9726 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 14300 9425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 14300 9600 50  0001 C CNN
+	1    14300 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-E9
+U 1 1 6054FA5D
+P 15500 9600
+F 0 "D-E9" H 15500 9817 50  0000 C CNN
+F 1 "1N4148" H 15500 9726 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 15500 9425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 15500 9600 50  0001 C CNN
+	1    15500 9600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14450 9600 14600 9600
+Wire Wire Line
+	16350 7450 16350 9600
+Connection ~ 16350 7450
+Wire Wire Line
+	15200 7450 15200 9600
+Connection ~ 15200 7450
+$Comp
+L keebio:MX S-A9
+U 1 1 6054FA72
+P 17300 2450
+F 0 "S-A9" H 17300 2673 50  0000 C CNN
+F 1 "MX" H 17300 2150 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 17300 2450 60  0001 C CNN
+F 3 "" H 17300 2450 60  0001 C CNN
+	1    17300 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-A10
+U 1 1 6054FA7C
+P 17900 2450
+F 0 "D-A10" H 17900 2667 50  0000 C CNN
+F 1 "1N4148" H 17900 2576 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 17900 2275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 17900 2450 50  0001 C CNN
+	1    17900 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-A10
+U 1 1 6054FA86
+P 18500 2450
+F 0 "S-A10" H 18500 2673 50  0000 C CNN
+F 1 "MX" H 18500 2150 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 18500 2450 60  0001 C CNN
+F 3 "" H 18500 2450 60  0001 C CNN
+	1    18500 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-B9
+U 1 1 6054FA9A
+P 17300 4000
+F 0 "S-B9" H 17300 4223 50  0000 C CNN
+F 1 "MX" H 17300 3700 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 17300 4000 60  0001 C CNN
+F 3 "" H 17300 4000 60  0001 C CNN
+	1    17300 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-B10
+U 1 1 6054FAA4
+P 18500 4000
+F 0 "S-B10" H 18500 4223 50  0000 C CNN
+F 1 "MX" H 18500 3700 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 18500 4000 60  0001 C CNN
+F 3 "" H 18500 4000 60  0001 C CNN
+	1    18500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-B9
+U 1 1 6054FAAE
+P 16700 4000
+F 0 "D-B9" H 16700 4217 50  0000 C CNN
+F 1 "1N4148" H 16700 4126 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 16700 3825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 16700 4000 50  0001 C CNN
+	1    16700 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-B10
+U 1 1 6054FAB8
+P 17900 4000
+F 0 "D-B10" H 17900 4217 50  0000 C CNN
+F 1 "1N4148" H 17900 4126 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 17900 3825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 17900 4000 50  0001 C CNN
+	1    17900 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-C10
+U 1 1 6054FACC
+P 16700 5750
+F 0 "D-C10" H 16700 5967 50  0000 C CNN
+F 1 "1N4148" H 16700 5876 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 16700 5575 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 16700 5750 50  0001 C CNN
+	1    16700 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-C10
+U 1 1 6054FAD6
+P 17300 5750
+F 0 "S-C10" H 17300 5973 50  0000 C CNN
+F 1 "MX" H 17300 5450 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 17300 5750 60  0001 C CNN
+F 3 "" H 17300 5750 60  0001 C CNN
+	1    17300 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-C11
+U 1 1 6054FAE0
+P 17900 5750
+F 0 "D-C11" H 17900 5967 50  0000 C CNN
+F 1 "1N4148" H 17900 5876 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 17900 5575 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 17900 5750 50  0001 C CNN
+	1    17900 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-C11
+U 1 1 6054FAEA
+P 18500 5750
+F 0 "S-C11" H 18500 5973 50  0000 C CNN
+F 1 "MX" H 18500 5450 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 18500 5750 60  0001 C CNN
+F 3 "" H 18500 5750 60  0001 C CNN
+	1    18500 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-D10
+U 1 1 6054FAFE
+P 16700 7450
+F 0 "D-D10" H 16700 7667 50  0000 C CNN
+F 1 "1N4148" H 16700 7576 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 16700 7275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 16700 7450 50  0001 C CNN
+	1    16700 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-D10
+U 1 1 6054FB08
+P 17300 7450
+F 0 "S-D10" H 17300 7673 50  0000 C CNN
+F 1 "MX" H 17300 7150 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 17300 7450 60  0001 C CNN
+F 3 "" H 17300 7450 60  0001 C CNN
+	1    17300 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-D11
+U 1 1 6054FB12
+P 18500 7450
+F 0 "S-D11" H 18500 7673 50  0000 C CNN
+F 1 "MX" H 18500 7150 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 18500 7450 60  0001 C CNN
+F 3 "" H 18500 7450 60  0001 C CNN
+	1    18500 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-D11
+U 1 1 6054FB1C
+P 17900 7450
+F 0 "D-D11" H 17900 7667 50  0000 C CNN
+F 1 "1N4148" H 17900 7576 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 17900 7275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 17900 7450 50  0001 C CNN
+	1    17900 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-A9
+U 1 1 6054FB58
+P 16700 2450
+F 0 "D-A9" H 16700 2667 50  0000 C CNN
+F 1 "1N4148" H 16700 2576 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 16700 2275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 16700 2450 50  0001 C CNN
+	1    16700 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16850 2450 17000 2450
+Wire Wire Line
+	18050 2450 18200 2450
+Wire Wire Line
+	16850 4000 17000 4000
+Wire Wire Line
+	17000 4000 17050 4000
+Connection ~ 17000 4000
+Wire Wire Line
+	18050 4000 18200 4000
+Wire Wire Line
+	17600 2450 17600 4000
+Wire Wire Line
+	17600 4000 17600 5750
+Connection ~ 17600 4000
+Wire Wire Line
+	17600 5750 17600 7450
+Connection ~ 17600 5750
+Wire Wire Line
+	18800 2450 18800 4000
+Wire Wire Line
+	18800 4000 18800 5750
+Connection ~ 18800 4000
+Wire Wire Line
+	18800 5750 18800 7450
+Connection ~ 18800 5750
+Wire Wire Line
+	16850 5750 17000 5750
+Wire Wire Line
+	16850 7450 17000 7450
+Wire Wire Line
+	18050 5750 18200 5750
+Wire Wire Line
+	18050 7450 18200 7450
+$Comp
+L keebio:MX S-E10
+U 1 1 6054FBA2
+P 17300 9600
+F 0 "S-E10" H 17300 9823 50  0000 C CNN
+F 1 "MX" H 17300 9300 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 17300 9600 60  0001 C CNN
+F 3 "" H 17300 9600 60  0001 C CNN
+	1    17300 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-E11
+U 1 1 6054FBAC
+P 18500 9600
+F 0 "S-E11" H 18500 9823 50  0000 C CNN
+F 1 "MX" H 18500 9300 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 18500 9600 60  0001 C CNN
+F 3 "" H 18500 9600 60  0001 C CNN
+	1    18500 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-E10
+U 1 1 6054FBC0
+P 16700 9600
+F 0 "D-E10" H 16700 9817 50  0000 C CNN
+F 1 "1N4148" H 16700 9726 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 16700 9425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 16700 9600 50  0001 C CNN
+	1    16700 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-E11
+U 1 1 6054FBCA
+P 17900 9600
+F 0 "D-E11" H 17900 9817 50  0000 C CNN
+F 1 "1N4148" H 17900 9726 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 17900 9425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 17900 9600 50  0001 C CNN
+	1    17900 9600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16850 9600 17000 9600
+Wire Wire Line
+	18050 9600 18200 9600
+Wire Wire Line
+	18800 7450 18800 9600
+Connection ~ 18800 7450
+Wire Wire Line
+	17600 7450 17600 9600
+Connection ~ 17600 7450
+Wire Wire Line
+	15650 4000 15750 4000
+Wire Wire Line
+	15650 5750 15750 5750
+Wire Wire Line
+	15650 7450 15750 7450
+Wire Wire Line
+	15650 9600 15750 9600
+Wire Wire Line
+	15650 2450 15750 2450
+$Comp
+L keebio:MX S-D12
+U 1 1 60B07D66
+P 19700 7450
+F 0 "S-D12" H 19700 7673 50  0000 C CNN
+F 1 "MX" H 19700 7150 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 19700 7450 60  0001 C CNN
+F 3 "" H 19700 7450 60  0001 C CNN
+	1    19700 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-D12
+U 1 1 60B07D70
+P 19100 7450
+F 0 "D-D12" H 19100 7667 50  0000 C CNN
+F 1 "1N4148" H 19100 7576 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 19100 7275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 19100 7450 50  0001 C CNN
+	1    19100 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19250 7450 19400 7450
+$Comp
+L keebio:MX S-E12
+U 1 1 60B07D93
+P 19700 9600
+F 0 "S-E12" H 19700 9823 50  0000 C CNN
+F 1 "MX" H 19700 9300 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 19700 9600 60  0001 C CNN
+F 3 "" H 19700 9600 60  0001 C CNN
+	1    19700 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-E12
+U 1 1 60B07D9D
+P 19100 9600
+F 0 "D-E12" H 19100 9817 50  0000 C CNN
+F 1 "1N4148" H 19100 9726 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 19100 9425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 19100 9600 50  0001 C CNN
+	1    19100 9600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19250 9600 19400 9600
+Wire Wire Line
+	20000 7450 20000 9600
+$Comp
+L Diode:1N4148 D-A11
+U 1 1 60E5C0CA
+P 19100 2450
+F 0 "D-A11" H 19100 2667 50  0000 C CNN
+F 1 "1N4148" H 19100 2576 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 19100 2275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 19100 2450 50  0001 C CNN
+	1    19100 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-A11
+U 1 1 60E5C0D4
+P 19700 2450
+F 0 "S-A11" H 19700 2673 50  0000 C CNN
+F 1 "MX" H 19700 2150 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 19700 2450 60  0001 C CNN
+F 3 "" H 19700 2450 60  0001 C CNN
+	1    19700 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-B11
+U 1 1 60E5C0DE
+P 19700 4000
+F 0 "S-B11" H 19700 4223 50  0000 C CNN
+F 1 "MX" H 19700 3700 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 19700 4000 60  0001 C CNN
+F 3 "" H 19700 4000 60  0001 C CNN
+	1    19700 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-B11
+U 1 1 60E5C0E8
+P 19100 4000
+F 0 "D-B11" H 19100 4217 50  0000 C CNN
+F 1 "1N4148" H 19100 4126 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 19100 3825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 19100 4000 50  0001 C CNN
+	1    19100 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-C12
+U 1 1 60E5C0F2
+P 19100 5750
+F 0 "D-C12" H 19100 5967 50  0000 C CNN
+F 1 "1N4148" H 19100 5876 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 19100 5575 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 19100 5750 50  0001 C CNN
+	1    19100 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-C12
+U 1 1 60E5C0FC
+P 19700 5750
+F 0 "S-C12" H 19700 5973 50  0000 C CNN
+F 1 "MX" H 19700 5450 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 19700 5750 60  0001 C CNN
+F 3 "" H 19700 5750 60  0001 C CNN
+	1    19700 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19250 2450 19400 2450
+Wire Wire Line
+	19250 4000 19400 4000
+Wire Wire Line
+	20000 2450 20000 4000
+Wire Wire Line
+	20000 4000 20000 5750
+Connection ~ 20000 4000
+Wire Wire Line
+	20000 5750 20000 7450
+Connection ~ 20000 5750
+Wire Wire Line
+	19250 5750 19400 5750
+Connection ~ 20000 7450
+Wire Wire Line
+	6750 4000 6750 5750
+$Comp
+L keebio:MX S-B0
+U 1 1 603B9B38
+P 6450 4000
+F 0 "S-B0" H 6450 4223 50  0000 C CNN
+F 1 "MX" H 6450 3700 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 6450 4000 60  0001 C CNN
+F 3 "" H 6450 4000 60  0001 C CNN
+	1    6450 4000
+	1    0    0    -1  
+$EndComp
+Connection ~ 6750 9600
+Connection ~ 7950 9600
+Connection ~ 9150 9600
+Connection ~ 10300 9600
+Connection ~ 11550 9600
+Connection ~ 12750 9600
+Connection ~ 15200 9600
+Connection ~ 16350 9600
+Connection ~ 17600 9600
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 608CC03C
+P 1650 1750
+F 0 "H1" H 1750 1796 50  0000 L CNN
+F 1 "MountingHole" H 1750 1705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1650 1750 50  0001 C CNN
+F 3 "~" H 1650 1750 50  0001 C CNN
+	1    1650 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 608DB0B1
+P 7100 1800
+F 0 "H2" H 7200 1846 50  0000 L CNN
+F 1 "MountingHole" H 7200 1755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 7100 1800 50  0001 C CNN
+F 3 "~" H 7100 1800 50  0001 C CNN
+	1    7100 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 608DE25A
+P 9300 1800
+F 0 "H3" H 9400 1846 50  0000 L CNN
+F 1 "MountingHole" H 9400 1755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 9300 1800 50  0001 C CNN
+F 3 "~" H 9300 1800 50  0001 C CNN
+	1    9300 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 608DF614
+P 12450 1800
+F 0 "H4" H 12550 1846 50  0000 L CNN
+F 1 "MountingHole" H 12550 1755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 12450 1800 50  0001 C CNN
+F 3 "~" H 12450 1800 50  0001 C CNN
+	1    12450 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 608E0B51
+P 16350 1800
+F 0 "H5" H 16450 1846 50  0000 L CNN
+F 1 "MountingHole" H 16450 1755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 16350 1800 50  0001 C CNN
+F 3 "~" H 16350 1800 50  0001 C CNN
+	1    16350 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H12
+U 1 1 608E54D2
+P 9400 13550
+F 0 "H12" H 9500 13596 50  0000 L CNN
+F 1 "MountingHole" H 9500 13505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 9400 13550 50  0001 C CNN
+F 3 "~" H 9400 13550 50  0001 C CNN
+	1    9400 13550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H11
+U 1 1 608E54DC
+P 12550 13550
+F 0 "H11" H 12650 13596 50  0000 L CNN
+F 1 "MountingHole" H 12650 13505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 12550 13550 50  0001 C CNN
+F 3 "~" H 12550 13550 50  0001 C CNN
+	1    12550 13550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H10
+U 1 1 608E54E6
+P 16450 13550
+F 0 "H10" H 16550 13596 50  0000 L CNN
+F 1 "MountingHole" H 16550 13505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 16450 13550 50  0001 C CNN
+F 3 "~" H 16450 13550 50  0001 C CNN
+	1    16450 13550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H13
+U 1 1 60AD6C6B
+P 6500 13550
+F 0 "H13" H 6600 13596 50  0000 L CNN
+F 1 "MountingHole" H 6600 13505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6500 13550 50  0001 C CNN
+F 3 "~" H 6500 13550 50  0001 C CNN
+	1    6500 13550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-B3
+U 1 1 603BFD72
+P 9450 4000
+F 0 "D-B3" H 9450 4217 50  0000 C CNN
+F 1 "1N4148" H 9450 4126 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9450 3825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9450 4000 50  0001 C CNN
+	1    9450 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-B2
+U 1 1 603BD6D2
+P 8250 4000
+F 0 "D-B2" H 8250 4217 50  0000 C CNN
+F 1 "1N4148" H 8250 4126 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8250 3825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8250 4000 50  0001 C CNN
+	1    8250 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-B1
+U 1 1 603BC595
+P 7050 4000
+F 0 "D-B1" H 7050 4217 50  0000 C CNN
+F 1 "1N4148" H 7050 4126 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7050 3825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7050 4000 50  0001 C CNN
+	1    7050 4000
+	1    0    0    -1  
+$EndComp
+Connection ~ 7350 4000
+Wire Wire Line
+	7200 4000 7350 4000
+Connection ~ 7200 4000
+Wire Wire Line
+	7200 4000 7200 5750
+$Comp
+L Diode:1N4148 D-A4
+U 1 1 6041B6EF
+P 10650 2450
+F 0 "D-A4" H 10650 2667 50  0000 C CNN
+F 1 "1N4148" H 10650 2576 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10650 2275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10650 2450 50  0001 C CNN
+	1    10650 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-A3
+U 1 1 603B7EC2
+P 9450 2450
+F 0 "D-A3" H 9450 2667 50  0000 C CNN
+F 1 "1N4148" H 9450 2576 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9450 2275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9450 2450 50  0001 C CNN
+	1    9450 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 2450 9700 2450
+$Comp
+L Diode:1N4148 D-A2
+U 1 1 603B4144
+P 8250 2450
+F 0 "D-A2" H 8250 2667 50  0000 C CNN
+F 1 "1N4148" H 8250 2576 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8250 2275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8250 2450 50  0001 C CNN
+	1    8250 2450
+	1    0    0    -1  
+$EndComp
+Connection ~ 7950 4000
+Wire Wire Line
+	7950 2450 7950 4000
+Wire Wire Line
+	7200 2450 7200 4000
+$Comp
+L Diode:1N4148 D-A1
+U 1 1 603AEC0D
+P 7050 2450
+F 0 "D-A1" H 7050 2667 50  0000 C CNN
+F 1 "1N4148" H 7050 2576 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7050 2275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7050 2450 50  0001 C CNN
+	1    7050 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-A0
+U 1 1 611C4099
+P 5850 2450
+F 0 "D-A0" H 5850 2667 50  0000 C CNN
+F 1 "1N4148" H 5850 2576 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5850 2275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5850 2450 50  0001 C CNN
+	1    5850 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 2450 5700 2550
+$Comp
+L Diode:1N4148 D-B0
+U 1 1 61DF3BED
+P 5850 4000
+F 0 "D-B0" H 5850 4217 50  0000 C CNN
+F 1 "1N4148" H 5850 4126 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5850 3825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5850 4000 50  0001 C CNN
+	1    5850 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-C0
+U 1 1 61DF5B7B
+P 4650 5750
+F 0 "D-C0" H 4650 5967 50  0000 C CNN
+F 1 "1N4148" H 4650 5876 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4650 5575 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4650 5750 50  0001 C CNN
+	1    4650 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-D0
+U 1 1 61DF7C22
+P 4650 7450
+F 0 "D-D0" H 4650 7667 50  0000 C CNN
+F 1 "1N4148" H 4650 7576 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4650 7275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4650 7450 50  0001 C CNN
+	1    4650 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-E0
+U 1 1 61DFC189
+P 4650 9600
+F 0 "D-E0" H 4650 9817 50  0000 C CNN
+F 1 "1N4148" H 4650 9726 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4650 9425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4650 9600 50  0001 C CNN
+	1    4650 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-C0
+U 1 1 60650368
+P 5250 5750
+F 0 "S-C0" H 5250 5973 50  0000 C CNN
+F 1 "MX" H 5250 5450 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 5250 5750 60  0001 C CNN
+F 3 "" H 5250 5750 60  0001 C CNN
+	1    5250 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-D0
+U 1 1 60651ED8
+P 5250 7450
+F 0 "S-D0" H 5250 7673 50  0000 C CNN
+F 1 "MX" H 5250 7150 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 5250 7450 60  0001 C CNN
+F 3 "" H 5250 7450 60  0001 C CNN
+	1    5250 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX S-E0
+U 1 1 60653977
+P 5250 9600
+F 0 "S-E0" H 5250 9823 50  0000 C CNN
+F 1 "MX" H 5250 9300 60  0001 C CNN
+F 2 "Keebio-Parts:Triple-Dual-1u-LED-flip" H 5250 9600 60  0001 C CNN
+F 3 "" H 5250 9600 60  0001 C CNN
+	1    5250 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-C1
+U 1 1 60655248
+P 5850 5750
+F 0 "D-C1" H 5850 5967 50  0000 C CNN
+F 1 "1N4148" H 5850 5876 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5850 5575 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5850 5750 50  0001 C CNN
+	1    5850 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-D1
+U 1 1 6065838B
+P 5850 7450
+F 0 "D-D1" H 5850 7667 50  0000 C CNN
+F 1 "1N4148" H 5850 7576 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5850 7275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5850 7450 50  0001 C CNN
+	1    5850 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D-E1
+U 1 1 605E283A
+P 5850 9600
+F 0 "D-E1" H 5850 9817 50  0000 C CNN
+F 1 "1N4148" H 5850 9726 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5850 9425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5850 9600 50  0001 C CNN
+	1    5850 9600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 9600 5550 7450
+Wire Wire Line
+	5550 7450 5550 5750
+Connection ~ 5550 7450
+Wire Wire Line
+	4500 5750 4500 5850
+Wire Wire Line
+	8400 2450 8550 2450
+Connection ~ 7200 2450
+Wire Wire Line
+	7200 2450 7350 2450
+Wire Wire Line
+	6000 2450 6150 2450
+Wire Wire Line
+	6900 2450 6900 2550
+Wire Wire Line
+	5700 2550 6900 2550
+Connection ~ 6900 2550
+Wire Wire Line
+	8100 2450 8100 2550
+Wire Wire Line
+	6900 2550 8100 2550
+Connection ~ 8100 2550
+Wire Wire Line
+	9300 2450 9300 2550
+Connection ~ 9300 2550
+Wire Wire Line
+	8100 2550 9300 2550
+Wire Wire Line
+	10500 2450 10500 2550
+Wire Wire Line
+	11700 2450 11700 2550
+Wire Wire Line
+	12900 2450 12900 2550
+Wire Wire Line
+	9300 2550 10500 2550
+Connection ~ 10500 2550
+Wire Wire Line
+	10500 2550 11700 2550
+Connection ~ 11700 2550
+Wire Wire Line
+	11700 2550 12900 2550
+Wire Wire Line
+	6000 4000 6150 4000
+Wire Wire Line
+	5700 4000 5700 4100
+Wire Wire Line
+	5700 4100 6900 4100
+Wire Wire Line
+	6900 4100 6900 4000
+Wire Wire Line
+	6900 4100 8100 4100
+Wire Wire Line
+	8100 4000 8100 4100
+Connection ~ 6900 4100
+Wire Wire Line
+	9300 4000 9300 4100
+Wire Wire Line
+	9300 4100 8100 4100
+Connection ~ 8100 4100
+Wire Wire Line
+	9300 4100 10500 4100
+Wire Wire Line
+	10500 4100 10500 4000
+Wire Wire Line
+	10500 4100 11700 4100
+Wire Wire Line
+	11700 4100 11700 4000
+Connection ~ 10500 4100
+Wire Wire Line
+	5450 2350 3250 2350
+$Comp
+L keebio:Elite-C U1
+U 1 1 603A2E19
+P 2550 2500
+F 0 "U1" H 2550 3337 60  0000 C CNN
+F 1 "Elite-C" H 2550 3231 60  0000 C CNN
+F 2 "Keebio-Parts:Elite-C-castellated-29pin-holes" V 3600 0   60  0001 C CNN
+F 3 "" V 3600 0   60  0001 C CNN
+	1    2550 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 3450 3600 3450
+Wire Wire Line
+	2650 3450 2650 3600
+Wire Wire Line
+	5700 2550 5550 2550
+Wire Wire Line
+	5550 2550 5550 1950
+Connection ~ 5700 2550
+Wire Wire Line
+	5550 1950 3250 1950
+Wire Wire Line
+	5700 4100 5450 4100
+Wire Wire Line
+	5450 4100 5450 2350
+Connection ~ 5700 4100
+Wire Wire Line
+	4500 5850 4300 5850
+Wire Wire Line
+	4300 5850 4300 2450
+Wire Wire Line
+	4300 2450 3250 2450
+Wire Wire Line
+	4200 2550 3250 2550
+Wire Wire Line
+	4100 2650 3250 2650
+Wire Wire Line
+	4500 7450 4500 7550
+Wire Wire Line
+	4200 7550 4500 7550
+Wire Wire Line
+	4200 2550 4200 7550
+Wire Wire Line
+	4500 9600 4500 9700
+Wire Wire Line
+	4500 9700 4100 9700
+Wire Wire Line
+	4100 2650 4100 9700
+Wire Wire Line
+	4800 9600 4950 9600
+Wire Wire Line
+	12900 2550 14150 2550
+Wire Wire Line
+	14150 2550 14150 2450
+Connection ~ 12900 2550
+Wire Wire Line
+	14150 2550 15350 2550
+Wire Wire Line
+	15350 2550 15350 2450
+Connection ~ 14150 2550
+Wire Wire Line
+	15350 2550 16550 2550
+Wire Wire Line
+	16550 2550 16550 2450
+Connection ~ 15350 2550
+Wire Wire Line
+	16550 2550 17750 2550
+Wire Wire Line
+	17750 2550 17750 2450
+Connection ~ 16550 2550
+Wire Wire Line
+	17750 2550 18950 2550
+Wire Wire Line
+	18950 2550 18950 2450
+Connection ~ 17750 2550
+Wire Wire Line
+	11700 4100 12900 4100
+Wire Wire Line
+	12900 4100 12900 4000
+Connection ~ 11700 4100
+Wire Wire Line
+	12900 4100 14150 4100
+Wire Wire Line
+	14150 4100 14150 4000
+Connection ~ 12900 4100
+Wire Wire Line
+	14150 4100 15350 4100
+Wire Wire Line
+	15350 4100 15350 4000
+Connection ~ 14150 4100
+Wire Wire Line
+	15350 4100 16550 4100
+Wire Wire Line
+	16550 4100 16550 4000
+Connection ~ 15350 4100
+Wire Wire Line
+	16550 4100 17750 4100
+Wire Wire Line
+	17750 4100 17750 4000
+Connection ~ 16550 4100
+Wire Wire Line
+	17750 4100 18950 4100
+Wire Wire Line
+	18950 4100 18950 4000
+Connection ~ 17750 4100
+Wire Wire Line
+	4800 5750 4950 5750
+Wire Wire Line
+	4800 7450 4950 7450
+Wire Wire Line
+	4500 5850 5700 5850
+Wire Wire Line
+	5700 5850 5700 5750
+Connection ~ 4500 5850
+Wire Wire Line
+	5700 5850 6900 5850
+Wire Wire Line
+	6900 5850 6900 5750
+Connection ~ 5700 5850
+Wire Wire Line
+	6000 5750 6150 5750
+Wire Wire Line
+	6900 5850 8100 5850
+Wire Wire Line
+	8100 5850 8100 5750
+Connection ~ 6900 5850
+Wire Wire Line
+	8100 5850 9300 5850
+Wire Wire Line
+	9300 5850 9300 5750
+Connection ~ 8100 5850
+Wire Wire Line
+	9300 5850 10500 5850
+Wire Wire Line
+	10500 5850 10500 5750
+Connection ~ 9300 5850
+Wire Wire Line
+	10500 5850 11700 5850
+Wire Wire Line
+	11700 5850 11700 5750
+Connection ~ 10500 5850
+Wire Wire Line
+	11700 5850 12900 5850
+Wire Wire Line
+	12900 5850 12900 5750
+Connection ~ 11700 5850
+Wire Wire Line
+	12900 5850 14150 5850
+Wire Wire Line
+	14150 5850 14150 5750
+Connection ~ 12900 5850
+Wire Wire Line
+	14150 5850 15350 5850
+Wire Wire Line
+	15350 5850 15350 5750
+Connection ~ 14150 5850
+Wire Wire Line
+	15350 5850 16550 5850
+Wire Wire Line
+	16550 5850 16550 5750
+Connection ~ 15350 5850
+Wire Wire Line
+	16550 5850 17750 5850
+Wire Wire Line
+	17750 5850 17750 5750
+Connection ~ 16550 5850
+Wire Wire Line
+	17750 5850 18950 5850
+Wire Wire Line
+	18950 5850 18950 5750
+Connection ~ 17750 5850
+Wire Wire Line
+	4500 7550 5700 7550
+Wire Wire Line
+	5700 7550 5700 7450
+Connection ~ 4500 7550
+Wire Wire Line
+	5700 7550 6900 7550
+Wire Wire Line
+	6900 7550 6900 7450
+Connection ~ 5700 7550
+Wire Wire Line
+	6000 7450 6150 7450
+Wire Wire Line
+	6900 7550 8100 7550
+Wire Wire Line
+	8100 7550 8100 7450
+Connection ~ 6900 7550
+Wire Wire Line
+	8100 7550 9300 7550
+Wire Wire Line
+	9300 7550 9300 7450
+Connection ~ 8100 7550
+Wire Wire Line
+	9300 7550 10500 7550
+Wire Wire Line
+	10500 7550 10500 7450
+Connection ~ 9300 7550
+Wire Wire Line
+	10500 7550 11700 7550
+Wire Wire Line
+	11700 7550 11700 7450
+Connection ~ 10500 7550
+Wire Wire Line
+	11700 7550 12900 7550
+Wire Wire Line
+	12900 7550 12900 7450
+Connection ~ 11700 7550
+Wire Wire Line
+	12900 7550 14150 7550
+Wire Wire Line
+	14150 7550 14150 7450
+Connection ~ 12900 7550
+Wire Wire Line
+	14150 7550 15350 7550
+Wire Wire Line
+	15350 7550 15350 7450
+Connection ~ 14150 7550
+Wire Wire Line
+	15350 7550 16550 7550
+Wire Wire Line
+	16550 7550 16550 7450
+Connection ~ 15350 7550
+Wire Wire Line
+	16550 7550 17750 7550
+Wire Wire Line
+	17750 7550 17750 7450
+Connection ~ 16550 7550
+Wire Wire Line
+	17750 7550 18950 7550
+Wire Wire Line
+	18950 7550 18950 7450
+Connection ~ 17750 7550
+Wire Wire Line
+	4500 9700 5700 9700
+Wire Wire Line
+	5700 9700 5700 9600
+Connection ~ 4500 9700
+Wire Wire Line
+	6000 9600 6150 9600
+Wire Wire Line
+	5700 9700 6900 9700
+Wire Wire Line
+	6900 9700 6900 9600
+Connection ~ 5700 9700
+Wire Wire Line
+	6900 9700 8100 9700
+Wire Wire Line
+	8100 9700 8100 9600
+Connection ~ 6900 9700
+Wire Wire Line
+	8100 9700 9300 9700
+Wire Wire Line
+	9300 9700 9300 9600
+Connection ~ 8100 9700
+Wire Wire Line
+	9300 9700 10500 9700
+Wire Wire Line
+	10500 9700 10500 9600
+Connection ~ 9300 9700
+Wire Wire Line
+	10500 9700 11700 9700
+Wire Wire Line
+	11700 9700 11700 9600
+Connection ~ 10500 9700
+Wire Wire Line
+	11700 9700 14150 9700
+Wire Wire Line
+	14150 9700 14150 9600
+Connection ~ 11700 9700
+Wire Wire Line
+	14150 9700 15350 9700
+Wire Wire Line
+	15350 9700 15350 9600
+Connection ~ 14150 9700
+Wire Wire Line
+	15350 9700 16550 9700
+Wire Wire Line
+	16550 9700 16550 9600
+Connection ~ 15350 9700
+Wire Wire Line
+	16550 9700 17750 9700
+Wire Wire Line
+	17750 9700 17750 9600
+Connection ~ 16550 9700
+Wire Wire Line
+	17750 9700 18950 9700
+Wire Wire Line
+	18950 9700 18950 9600
+Connection ~ 17750 9700
+Wire Wire Line
+	5550 5750 5550 4250
+Wire Wire Line
+	5550 4250 3600 4250
+Wire Wire Line
+	3600 3450 3600 4250
+Connection ~ 5550 5750
+Wire Wire Line
+	6750 11200 4000 11200
+Wire Wire Line
+	4000 11200 4000 2750
+Wire Wire Line
+	4000 2750 3250 2750
+Wire Wire Line
+	6750 9600 6750 11200
+Wire Wire Line
+	7950 11350 3900 11350
+Wire Wire Line
+	3900 11350 3900 2850
+Wire Wire Line
+	3900 2850 3250 2850
+Wire Wire Line
+	7950 9600 7950 11350
+Wire Wire Line
+	9150 11500 3750 11500
+Wire Wire Line
+	3750 11500 3750 2950
+Wire Wire Line
+	3750 2950 3250 2950
+Wire Wire Line
+	9150 9600 9150 11500
+Wire Wire Line
+	10300 11750 3450 11750
+Wire Wire Line
+	3450 11750 3450 3050
+Wire Wire Line
+	3450 3050 3250 3050
+Wire Wire Line
+	10300 9600 10300 11750
+Wire Wire Line
+	1750 11900 11550 11900
+Wire Wire Line
+	11550 9600 11550 11900
+Wire Wire Line
+	1750 3050 1750 11900
+Wire Wire Line
+	12750 9600 12750 12050
+Wire Wire Line
+	1650 2950 1650 12050
+Connection ~ 18800 9600
+Connection ~ 20000 9600
+Wire Wire Line
+	1750 3050 1850 3050
+Wire Wire Line
+	1550 2850 1850 2850
+Wire Wire Line
+	1650 2950 1850 2950
+Wire Wire Line
+	1650 12050 12750 12050
+Wire Wire Line
+	13950 12300 1550 12300
+Wire Wire Line
+	1550 2850 1550 12300
+Wire Wire Line
+	13950 7450 13950 12300
+Wire Wire Line
+	15200 12500 1300 12500
+Wire Wire Line
+	1300 12500 1300 2750
+Wire Wire Line
+	15200 9600 15200 12500
+Wire Wire Line
+	1300 2750 1850 2750
+Wire Wire Line
+	16350 12700 1150 12700
+Wire Wire Line
+	1150 12700 1150 2650
+Wire Wire Line
+	1150 2650 1850 2650
+Wire Wire Line
+	16350 9600 16350 12700
+Wire Wire Line
+	17600 12900 1000 12900
+Wire Wire Line
+	1000 12900 1000 2550
+Wire Wire Line
+	1000 2550 1850 2550
+Wire Wire Line
+	17600 9600 17600 12900
+Wire Wire Line
+	18800 13100 850  13100
+Wire Wire Line
+	850  13100 850  2450
+Wire Wire Line
+	850  2450 1850 2450
+Wire Wire Line
+	18800 9600 18800 13100
+Wire Wire Line
+	20000 13350 650  13350
+Wire Wire Line
+	650  13350 650  2350
+Wire Wire Line
+	650  2350 1850 2350
+Wire Wire Line
+	20000 9600 20000 13350
+$Comp
+L LED:SK6812MINI RGB-0
+U 1 1 65201A31
+P 6300 3000
+F 0 "RGB-0" H 6300 2700 50  0000 C BNN
+F 1 "SK6812MINI" H 6100 2650 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 6350 2700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 6400 2625 50  0001 L TNN
+	1    6300 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 4000 6750 2450
+Connection ~ 6750 4000
+$Comp
+L LED:SK6812MINI RGB-1
+U 1 1 652A921F
+P 7700 3000
+F 0 "RGB-1" H 7700 2700 50  0000 C BNN
+F 1 "SK6812MINI" H 7500 2650 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 7750 2700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 7800 2625 50  0001 L TNN
+	1    7700 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-2
+U 1 1 652ABB89
+P 8900 3000
+F 0 "RGB-2" H 8900 2700 50  0000 C BNN
+F 1 "SK6812MINI" H 8700 2650 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 8950 2700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 9000 2625 50  0001 L TNN
+	1    8900 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-3
+U 1 1 652AF36E
+P 10000 3000
+F 0 "RGB-3" H 10000 2700 50  0000 C BNN
+F 1 "SK6812MINI" H 9800 2650 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 10050 2700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 10100 2625 50  0001 L TNN
+	1    10000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-4
+U 1 1 652B0DE2
+P 11250 3000
+F 0 "RGB-4" H 11250 2700 50  0000 C BNN
+F 1 "SK6812MINI" H 11050 2650 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 11300 2700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 11350 2625 50  0001 L TNN
+	1    11250 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-5
+U 1 1 652B2768
+P 12450 3000
+F 0 "RGB-5" H 12450 2700 50  0000 C BNN
+F 1 "SK6812MINI" H 12250 2650 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 12500 2700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 12550 2625 50  0001 L TNN
+	1    12450 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-6
+U 1 1 652B4939
+P 13700 3000
+F 0 "RGB-6" H 13700 2700 50  0000 C BNN
+F 1 "SK6812MINI" H 13500 2650 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 13750 2700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 13800 2625 50  0001 L TNN
+	1    13700 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-7
+U 1 1 652B6D32
+P 14900 3000
+F 0 "RGB-7" H 14900 2700 50  0000 C BNN
+F 1 "SK6812MINI" H 14700 2650 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 14950 2700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 15000 2625 50  0001 L TNN
+	1    14900 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-8
+U 1 1 652B893C
+P 16050 3000
+F 0 "RGB-8" H 16050 2700 50  0000 C BNN
+F 1 "SK6812MINI" H 15850 2650 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 16100 2700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 16150 2625 50  0001 L TNN
+	1    16050 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-9
+U 1 1 652BA9D5
+P 17300 3000
+F 0 "RGB-9" H 17300 2700 50  0000 C BNN
+F 1 "SK6812MINI" H 17100 2650 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 17350 2700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 17400 2625 50  0001 L TNN
+	1    17300 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-10
+U 1 1 652BD05C
+P 18500 3000
+F 0 "RGB-10" H 18500 2700 50  0000 C BNN
+F 1 "SK6812MINI" H 18300 2650 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 18550 2700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 18600 2625 50  0001 L TNN
+	1    18500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-11
+U 1 1 652BF311
+P 19750 3000
+F 0 "RGB-11" H 19750 2700 50  0000 C BNN
+F 1 "SK6812MINI" H 19550 2650 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 19800 2700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 19850 2625 50  0001 L TNN
+	1    19750 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 2250 5250 2800
+Wire Wire Line
+	5250 2800 6250 2800
+Wire Wire Line
+	3250 2250 5250 2250
+Wire Wire Line
+	6250 2800 7650 2800
+Connection ~ 6250 2800
+Wire Wire Line
+	7650 2800 8850 2800
+Connection ~ 7650 2800
+Wire Wire Line
+	8850 2800 9950 2800
+Connection ~ 8850 2800
+Wire Wire Line
+	9950 2800 11200 2800
+Connection ~ 9950 2800
+Wire Wire Line
+	11200 2800 12400 2800
+Connection ~ 11200 2800
+Wire Wire Line
+	12400 2800 13650 2800
+Connection ~ 12400 2800
+Wire Wire Line
+	13650 2800 14850 2800
+Connection ~ 13650 2800
+Wire Wire Line
+	14850 2800 16000 2800
+Connection ~ 14850 2800
+Wire Wire Line
+	16000 2800 17250 2800
+Connection ~ 16000 2800
+Wire Wire Line
+	17250 2800 18450 2800
+Connection ~ 17250 2800
+Wire Wire Line
+	18450 2800 19700 2800
+Connection ~ 18450 2800
+Wire Wire Line
+	3250 2050 5150 2050
+Wire Wire Line
+	5150 2050 5150 3200
+Wire Wire Line
+	5150 3200 6250 3200
+Wire Wire Line
+	6250 3200 7650 3200
+Connection ~ 6250 3200
+Wire Wire Line
+	7650 3200 8850 3200
+Connection ~ 7650 3200
+Wire Wire Line
+	8850 3200 9950 3200
+Connection ~ 8850 3200
+Wire Wire Line
+	9950 3200 11200 3200
+Connection ~ 9950 3200
+Wire Wire Line
+	11200 3200 12400 3200
+Connection ~ 11200 3200
+Wire Wire Line
+	12400 3200 13650 3200
+Connection ~ 12400 3200
+Wire Wire Line
+	13650 3200 14850 3200
+Connection ~ 13650 3200
+Wire Wire Line
+	14850 3200 16000 3200
+Connection ~ 14850 3200
+Wire Wire Line
+	16000 3200 17250 3200
+Connection ~ 16000 3200
+Wire Wire Line
+	17250 3200 18450 3200
+Connection ~ 17250 3200
+Wire Wire Line
+	18450 3200 19700 3200
+Connection ~ 18450 3200
+Wire Wire Line
+	2550 3450 2550 3800
+Wire Wire Line
+	2550 3800 5250 3800
+Wire Wire Line
+	5250 3800 5250 2950
+Wire Wire Line
+	5250 2950 6100 2950
+Wire Wire Line
+	6500 2950 7500 2950
+Wire Wire Line
+	7900 2950 8700 2950
+Wire Wire Line
+	9100 2950 9800 2950
+Wire Wire Line
+	10200 2950 11050 2950
+Wire Wire Line
+	11450 2950 12250 2950
+Wire Wire Line
+	12650 2950 13500 2950
+Wire Wire Line
+	13900 2950 14700 2950
+Wire Wire Line
+	15100 2950 15850 2950
+Wire Wire Line
+	16250 2950 17100 2950
+Wire Wire Line
+	17500 2950 18300 2950
+Wire Wire Line
+	18700 2950 19550 2950
+Connection ~ 9300 4100
+$Comp
+L LED:SK6812MINI RGB-12
+U 1 1 65D179F7
+P 19750 4700
+F 0 "RGB-12" H 19750 4400 50  0000 C BNN
+F 1 "SK6812MINI" H 19550 4350 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 19800 4400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 19850 4325 50  0001 L TNN
+	1    19750 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-13
+U 1 1 65D63B0A
+P 18500 4700
+F 0 "RGB-13" H 18500 4400 50  0000 C BNN
+F 1 "SK6812MINI" H 18300 4350 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 18550 4400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 18600 4325 50  0001 L TNN
+	1    18500 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-14
+U 1 1 65D680A7
+P 17300 4700
+F 0 "RGB-14" H 17300 4400 50  0000 C BNN
+F 1 "SK6812MINI" H 17100 4350 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 17350 4400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 17400 4325 50  0001 L TNN
+	1    17300 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-15
+U 1 1 65D69CB3
+P 16050 4700
+F 0 "RGB-15" H 16050 4400 50  0000 C BNN
+F 1 "SK6812MINI" H 15850 4350 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 16100 4400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 16150 4325 50  0001 L TNN
+	1    16050 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-16
+U 1 1 65D6B932
+P 14900 4700
+F 0 "RGB-16" H 14900 4400 50  0000 C BNN
+F 1 "SK6812MINI" H 14700 4350 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 14950 4400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 15000 4325 50  0001 L TNN
+	1    14900 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-17
+U 1 1 65D6D5D6
+P 13700 4700
+F 0 "RGB-17" H 13700 4400 50  0000 C BNN
+F 1 "SK6812MINI" H 13500 4350 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 13750 4400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 13800 4325 50  0001 L TNN
+	1    13700 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-18
+U 1 1 65D6F5FD
+P 12450 4700
+F 0 "RGB-18" H 12450 4400 50  0000 C BNN
+F 1 "SK6812MINI" H 12250 4350 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 12500 4400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 12550 4325 50  0001 L TNN
+	1    12450 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-19
+U 1 1 65D714C2
+P 11250 4700
+F 0 "RGB-19" H 11250 4400 50  0000 C BNN
+F 1 "SK6812MINI" H 11050 4350 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 11300 4400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 11350 4325 50  0001 L TNN
+	1    11250 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-20
+U 1 1 65D73703
+P 10000 4700
+F 0 "RGB-20" H 10000 4400 50  0000 C BNN
+F 1 "SK6812MINI" H 9800 4350 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 10050 4400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 10100 4325 50  0001 L TNN
+	1    10000 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-21
+U 1 1 65D753C4
+P 8850 4700
+F 0 "RGB-21" H 8850 4400 50  0000 C BNN
+F 1 "SK6812MINI" H 8650 4350 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 8900 4400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 8950 4325 50  0001 L TNN
+	1    8850 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-22
+U 1 1 65D76ED4
+P 7700 4700
+F 0 "RGB-22" H 7700 4400 50  0000 C BNN
+F 1 "SK6812MINI" H 7500 4350 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 7750 4400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 7800 4325 50  0001 L TNN
+	1    7700 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-23
+U 1 1 65D793A0
+P 6300 4700
+F 0 "RGB-23" H 6300 4400 50  0000 C BNN
+F 1 "SK6812MINI" H 6100 4350 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 6350 4400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 6400 4325 50  0001 L TNN
+	1    6300 4700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	19700 3200 20350 3200
+Wire Wire Line
+	20350 3200 20350 4500
+Wire Wire Line
+	20350 4500 19800 4500
+Connection ~ 19700 3200
+Wire Wire Line
+	19700 2800 20750 2800
+Wire Wire Line
+	20750 2800 20750 4900
+Wire Wire Line
+	20750 4900 19800 4900
+Connection ~ 19700 2800
+Wire Wire Line
+	19950 2950 20500 2950
+Wire Wire Line
+	20500 2950 20500 4750
+Wire Wire Line
+	20500 4750 19950 4750
+Wire Wire Line
+	19800 4500 18550 4500
+Connection ~ 19800 4500
+Wire Wire Line
+	19550 4750 18700 4750
+Wire Wire Line
+	19800 4900 18550 4900
+Connection ~ 19800 4900
+Wire Wire Line
+	18300 4750 17500 4750
+Wire Wire Line
+	18550 4500 17350 4500
+Connection ~ 18550 4500
+Connection ~ 7750 4500
+Wire Wire Line
+	7750 4500 6350 4500
+Connection ~ 8900 4500
+Wire Wire Line
+	8900 4500 7750 4500
+Connection ~ 10050 4500
+Wire Wire Line
+	10050 4500 8900 4500
+Connection ~ 11300 4500
+Wire Wire Line
+	11300 4500 10050 4500
+Connection ~ 12500 4500
+Wire Wire Line
+	12500 4500 11300 4500
+Connection ~ 13750 4500
+Wire Wire Line
+	13750 4500 12500 4500
+Connection ~ 14950 4500
+Wire Wire Line
+	14950 4500 13750 4500
+Connection ~ 16100 4500
+Wire Wire Line
+	16100 4500 14950 4500
+Connection ~ 17350 4500
+Wire Wire Line
+	17350 4500 16100 4500
+Wire Wire Line
+	18550 4900 17350 4900
+Connection ~ 18550 4900
+Connection ~ 7750 4900
+Wire Wire Line
+	7750 4900 6350 4900
+Connection ~ 8900 4900
+Wire Wire Line
+	8900 4900 7750 4900
+Connection ~ 10050 4900
+Wire Wire Line
+	10050 4900 8900 4900
+Connection ~ 11300 4900
+Wire Wire Line
+	11300 4900 10050 4900
+Connection ~ 12500 4900
+Wire Wire Line
+	12500 4900 11300 4900
+Connection ~ 13750 4900
+Wire Wire Line
+	13750 4900 12500 4900
+Connection ~ 14950 4900
+Wire Wire Line
+	14950 4900 13750 4900
+Connection ~ 16100 4900
+Wire Wire Line
+	16100 4900 14950 4900
+Connection ~ 17350 4900
+Wire Wire Line
+	17350 4900 16100 4900
+Wire Wire Line
+	17100 4750 16250 4750
+Wire Wire Line
+	15850 4750 15100 4750
+Wire Wire Line
+	14700 4750 13900 4750
+Wire Wire Line
+	13500 4750 12650 4750
+Wire Wire Line
+	12250 4750 11450 4750
+Wire Wire Line
+	11050 4750 10200 4750
+Wire Wire Line
+	9800 4750 9050 4750
+Wire Wire Line
+	8650 4750 7900 4750
+Wire Wire Line
+	7500 4750 6500 4750
+$Comp
+L LED:SK6812MINI RGB-24
+U 1 1 6613979B
+P 4950 6450
+F 0 "RGB-24" H 4950 6150 50  0000 C BNN
+F 1 "SK6812MINI" H 4750 6100 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 5000 6150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 5050 6075 50  0001 L TNN
+	1    4950 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 4900 4650 4900
+Wire Wire Line
+	4650 4900 4650 6250
+Wire Wire Line
+	4650 6250 4900 6250
+Connection ~ 6350 4900
+Wire Wire Line
+	6100 4750 4550 4750
+Wire Wire Line
+	4550 4750 4550 6400
+Wire Wire Line
+	4550 6400 4750 6400
+Wire Wire Line
+	6350 4500 4450 4500
+Wire Wire Line
+	4450 4500 4450 6650
+Wire Wire Line
+	4450 6650 4900 6650
+Connection ~ 6350 4500
+$Comp
+L LED:SK6812MINI RGB-25
+U 1 1 6622444A
+P 6300 6450
+F 0 "RGB-25" H 6300 6150 50  0000 C BNN
+F 1 "SK6812MINI" H 6100 6100 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 6350 6150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 6400 6075 50  0001 L TNN
+	1    6300 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 6250 6250 6250
+Connection ~ 4900 6250
+Wire Wire Line
+	4900 6650 6250 6650
+Connection ~ 4900 6650
+Wire Wire Line
+	5150 6400 6100 6400
+$Comp
+L LED:SK6812MINI RGB-26
+U 1 1 663319C4
+P 7650 6450
+F 0 "RGB-26" H 7650 6150 50  0000 C BNN
+F 1 "SK6812MINI" H 7450 6100 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 7700 6150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 7750 6075 50  0001 L TNN
+	1    7650 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-27
+U 1 1 66332CD5
+P 8850 6450
+F 0 "RGB-27" H 8850 6150 50  0000 C BNN
+F 1 "SK6812MINI" H 8650 6100 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 8900 6150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 8950 6075 50  0001 L TNN
+	1    8850 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-28
+U 1 1 66333A91
+P 10000 6450
+F 0 "RGB-28" H 10000 6150 50  0000 C BNN
+F 1 "SK6812MINI" H 9800 6100 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 10050 6150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 10100 6075 50  0001 L TNN
+	1    10000 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-29
+U 1 1 663347B1
+P 11250 6450
+F 0 "RGB-29" H 11250 6150 50  0000 C BNN
+F 1 "SK6812MINI" H 11050 6100 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 11300 6150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 11350 6075 50  0001 L TNN
+	1    11250 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-30
+U 1 1 66335150
+P 12450 6450
+F 0 "RGB-30" H 12450 6150 50  0000 C BNN
+F 1 "SK6812MINI" H 12250 6100 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 12500 6150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 12550 6075 50  0001 L TNN
+	1    12450 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-31
+U 1 1 66335C4E
+P 13700 6450
+F 0 "RGB-31" H 13700 6150 50  0000 C BNN
+F 1 "SK6812MINI" H 13500 6100 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 13750 6150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 13800 6075 50  0001 L TNN
+	1    13700 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-32
+U 1 1 663368F9
+P 14900 6450
+F 0 "RGB-32" H 14900 6150 50  0000 C BNN
+F 1 "SK6812MINI" H 14700 6100 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 14950 6150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 15000 6075 50  0001 L TNN
+	1    14900 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-33
+U 1 1 6633757D
+P 16050 6450
+F 0 "RGB-33" H 16050 6150 50  0000 C BNN
+F 1 "SK6812MINI" H 15850 6100 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 16100 6150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 16150 6075 50  0001 L TNN
+	1    16050 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-34
+U 1 1 66337EF5
+P 17300 6450
+F 0 "RGB-34" H 17300 6150 50  0000 C BNN
+F 1 "SK6812MINI" H 17100 6100 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 17350 6150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 17400 6075 50  0001 L TNN
+	1    17300 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-35
+U 1 1 663389CC
+P 18500 6450
+F 0 "RGB-35" H 18500 6150 50  0000 C BNN
+F 1 "SK6812MINI" H 18300 6100 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 18550 6150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 18600 6075 50  0001 L TNN
+	1    18500 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 6250 7600 6250
+Connection ~ 6250 6250
+Connection ~ 7600 6250
+Wire Wire Line
+	7600 6250 8800 6250
+Connection ~ 8800 6250
+Wire Wire Line
+	8800 6250 9950 6250
+Connection ~ 9950 6250
+Wire Wire Line
+	9950 6250 11200 6250
+Connection ~ 11200 6250
+Wire Wire Line
+	11200 6250 12400 6250
+Connection ~ 12400 6250
+Wire Wire Line
+	12400 6250 13650 6250
+Connection ~ 13650 6250
+Wire Wire Line
+	13650 6250 14850 6250
+Connection ~ 14850 6250
+Wire Wire Line
+	14850 6250 16000 6250
+Connection ~ 16000 6250
+Wire Wire Line
+	16000 6250 17250 6250
+Connection ~ 17250 6250
+Wire Wire Line
+	17250 6250 18450 6250
+Connection ~ 18450 6250
+Wire Wire Line
+	18450 6250 19650 6250
+Wire Wire Line
+	6250 6650 7600 6650
+Connection ~ 6250 6650
+Connection ~ 7600 6650
+Wire Wire Line
+	7600 6650 8800 6650
+Connection ~ 8800 6650
+Wire Wire Line
+	8800 6650 9950 6650
+Connection ~ 9950 6650
+Wire Wire Line
+	9950 6650 11200 6650
+Connection ~ 11200 6650
+Wire Wire Line
+	11200 6650 12400 6650
+Connection ~ 12400 6650
+Wire Wire Line
+	12400 6650 13650 6650
+Connection ~ 13650 6650
+Wire Wire Line
+	13650 6650 14850 6650
+Connection ~ 14850 6650
+Wire Wire Line
+	14850 6650 16000 6650
+Connection ~ 16000 6650
+Wire Wire Line
+	16000 6650 17250 6650
+Connection ~ 17250 6650
+Wire Wire Line
+	17250 6650 18450 6650
+Connection ~ 18450 6650
+Wire Wire Line
+	18450 6650 19650 6650
+Wire Wire Line
+	6500 6400 7450 6400
+Wire Wire Line
+	7850 6400 8650 6400
+Wire Wire Line
+	9050 6400 9800 6400
+Wire Wire Line
+	10200 6400 11050 6400
+Wire Wire Line
+	11450 6400 12250 6400
+Wire Wire Line
+	12650 6400 13500 6400
+Wire Wire Line
+	13900 6400 14700 6400
+Wire Wire Line
+	15100 6400 15850 6400
+Wire Wire Line
+	16250 6400 17100 6400
+Wire Wire Line
+	17500 6400 18300 6400
+Wire Wire Line
+	18700 6400 19500 6400
+$Comp
+L LED:SK6812MINI RGB-37
+U 1 1 6668B344
+P 19700 8250
+F 0 "RGB-37" H 19700 7950 50  0000 C BNN
+F 1 "SK6812MINI" H 19500 7900 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 19750 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 19800 7875 50  0001 L TNN
+	1    19700 8250
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-36
+U 1 1 66339677
+P 19700 6450
+F 0 "RGB-36" H 19700 6150 50  0000 C BNN
+F 1 "SK6812MINI" H 19500 6100 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 19750 6150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 19800 6075 50  0001 L TNN
+	1    19700 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19650 6650 20350 6650
+Wire Wire Line
+	20350 6650 20350 8050
+Wire Wire Line
+	20350 8050 19750 8050
+Connection ~ 19650 6650
+Wire Wire Line
+	19900 8300 20500 8300
+Wire Wire Line
+	20500 8300 20500 6400
+Wire Wire Line
+	20500 6400 19900 6400
+Wire Wire Line
+	19650 6250 20750 6250
+Wire Wire Line
+	20750 6250 20750 8450
+Wire Wire Line
+	20750 8450 19750 8450
+Connection ~ 19650 6250
+$Comp
+L LED:SK6812MINI RGB-38
+U 1 1 66776A72
+P 18500 8250
+F 0 "RGB-38" H 18500 7950 50  0000 C BNN
+F 1 "SK6812MINI" H 18300 7900 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 18550 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 18600 7875 50  0001 L TNN
+	1    18500 8250
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-39
+U 1 1 66778068
+P 17300 8250
+F 0 "RGB-39" H 17300 7950 50  0000 C BNN
+F 1 "SK6812MINI" H 17100 7900 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 17350 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 17400 7875 50  0001 L TNN
+	1    17300 8250
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-40
+U 1 1 6677891D
+P 16050 8250
+F 0 "RGB-40" H 16050 7950 50  0000 C BNN
+F 1 "SK6812MINI" H 15850 7900 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 16100 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 16150 7875 50  0001 L TNN
+	1    16050 8250
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-41
+U 1 1 66779136
+P 14850 8250
+F 0 "RGB-41" H 14850 7950 50  0000 C BNN
+F 1 "SK6812MINI" H 14650 7900 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 14900 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 14950 7875 50  0001 L TNN
+	1    14850 8250
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-42
+U 1 1 66779AAE
+P 13650 8250
+F 0 "RGB-42" H 13650 7950 50  0000 C BNN
+F 1 "SK6812MINI" H 13450 7900 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 13700 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 13750 7875 50  0001 L TNN
+	1    13650 8250
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-43
+U 1 1 6677A7A7
+P 12400 8250
+F 0 "RGB-43" H 12400 7950 50  0000 C BNN
+F 1 "SK6812MINI" H 12200 7900 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 12450 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 12500 7875 50  0001 L TNN
+	1    12400 8250
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-44
+U 1 1 6677B0D1
+P 11250 8250
+F 0 "RGB-44" H 11250 7950 50  0000 C BNN
+F 1 "SK6812MINI" H 11050 7900 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 11300 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 11350 7875 50  0001 L TNN
+	1    11250 8250
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-45
+U 1 1 6677B95F
+P 10000 8250
+F 0 "RGB-45" H 10000 7950 50  0000 C BNN
+F 1 "SK6812MINI" H 9800 7900 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 10050 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 10100 7875 50  0001 L TNN
+	1    10000 8250
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-46
+U 1 1 6677C178
+P 8850 8250
+F 0 "RGB-46" H 8850 7950 50  0000 C BNN
+F 1 "SK6812MINI" H 8650 7900 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 8900 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 8950 7875 50  0001 L TNN
+	1    8850 8250
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-47
+U 1 1 6677CD12
+P 7650 8250
+F 0 "RGB-47" H 7650 7950 50  0000 C BNN
+F 1 "SK6812MINI" H 7450 7900 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 7700 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 7750 7875 50  0001 L TNN
+	1    7650 8250
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-48
+U 1 1 6677DCA2
+P 6300 8250
+F 0 "RGB-48" H 6300 7950 50  0000 C BNN
+F 1 "SK6812MINI" H 6100 7900 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 6350 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 6400 7875 50  0001 L TNN
+	1    6300 8250
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-49
+U 1 1 6677EA37
+P 4950 8250
+F 0 "RGB-49" H 4950 7950 50  0000 C BNN
+F 1 "SK6812MINI" H 4750 7900 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 5000 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 5050 7875 50  0001 L TNN
+	1    4950 8250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	19750 8050 18550 8050
+Connection ~ 19750 8050
+Connection ~ 6350 8050
+Connection ~ 7700 8050
+Wire Wire Line
+	7700 8050 6350 8050
+Connection ~ 8900 8050
+Wire Wire Line
+	8900 8050 7700 8050
+Connection ~ 10050 8050
+Wire Wire Line
+	10050 8050 8900 8050
+Connection ~ 11300 8050
+Wire Wire Line
+	11300 8050 10050 8050
+Connection ~ 12450 8050
+Wire Wire Line
+	12450 8050 11300 8050
+Connection ~ 13700 8050
+Wire Wire Line
+	13700 8050 12450 8050
+Connection ~ 14900 8050
+Wire Wire Line
+	14900 8050 13700 8050
+Connection ~ 16100 8050
+Wire Wire Line
+	16100 8050 14900 8050
+Connection ~ 17350 8050
+Wire Wire Line
+	17350 8050 16100 8050
+Connection ~ 18550 8050
+Wire Wire Line
+	18550 8050 17350 8050
+Wire Wire Line
+	19750 8450 18550 8450
+Connection ~ 19750 8450
+Connection ~ 6350 8450
+Connection ~ 7700 8450
+Wire Wire Line
+	7700 8450 6350 8450
+Connection ~ 8900 8450
+Wire Wire Line
+	8900 8450 7700 8450
+Connection ~ 10050 8450
+Wire Wire Line
+	10050 8450 8900 8450
+Connection ~ 11300 8450
+Wire Wire Line
+	11300 8450 10050 8450
+Connection ~ 12450 8450
+Wire Wire Line
+	12450 8450 11300 8450
+Connection ~ 13700 8450
+Wire Wire Line
+	13700 8450 12450 8450
+Connection ~ 14900 8450
+Wire Wire Line
+	14900 8450 13700 8450
+Connection ~ 16100 8450
+Wire Wire Line
+	16100 8450 14900 8450
+Connection ~ 17350 8450
+Wire Wire Line
+	17350 8450 16100 8450
+Connection ~ 18550 8450
+Wire Wire Line
+	18550 8450 17350 8450
+Wire Wire Line
+	19500 8300 18700 8300
+Wire Wire Line
+	18300 8300 17500 8300
+Wire Wire Line
+	17100 8300 16250 8300
+Wire Wire Line
+	15850 8300 15050 8300
+Wire Wire Line
+	14650 8300 13850 8300
+Wire Wire Line
+	13450 8300 12600 8300
+Wire Wire Line
+	12200 8300 11450 8300
+Wire Wire Line
+	11050 8300 10200 8300
+Wire Wire Line
+	9800 8300 9050 8300
+Wire Wire Line
+	8650 8300 7850 8300
+Wire Wire Line
+	7450 8300 6500 8300
+$Comp
+L LED:SK6812MINI RGB-50
+U 1 1 66B3A469
+P 4950 10100
+F 0 "RGB-50" H 4950 9800 50  0000 C BNN
+F 1 "SK6812MINI" H 4750 9750 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 5000 9800 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 5050 9725 50  0001 L TNN
+	1    4950 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-51
+U 1 1 66B3D3C3
+P 6300 10100
+F 0 "RGB-51" H 6300 9800 50  0000 C BNN
+F 1 "SK6812MINI" H 6100 9750 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 6350 9800 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 6400 9725 50  0001 L TNN
+	1    6300 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-52
+U 1 1 66B3EE24
+P 7650 10100
+F 0 "RGB-52" H 7650 9800 50  0000 C BNN
+F 1 "SK6812MINI" H 7450 9750 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 7700 9800 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 7750 9725 50  0001 L TNN
+	1    7650 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-53
+U 1 1 66B401AB
+P 8850 10100
+F 0 "RGB-53" H 8850 9800 50  0000 C BNN
+F 1 "SK6812MINI" H 8650 9750 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 8900 9800 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 8950 9725 50  0001 L TNN
+	1    8850 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-54
+U 1 1 66B41753
+P 10000 10100
+F 0 "RGB-54" H 10000 9800 50  0000 C BNN
+F 1 "SK6812MINI" H 9800 9750 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 10050 9800 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 10100 9725 50  0001 L TNN
+	1    10000 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-55
+U 1 1 66B428DE
+P 11250 10100
+F 0 "RGB-55" H 11250 9800 50  0000 C BNN
+F 1 "SK6812MINI" H 11050 9750 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 11300 9800 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 11350 9725 50  0001 L TNN
+	1    11250 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-56
+U 1 1 66B4331D
+P 12450 10100
+F 0 "RGB-56" H 12450 9800 50  0000 C BNN
+F 1 "SK6812MINI" H 12250 9750 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 12500 9800 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 12550 9725 50  0001 L TNN
+	1    12450 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-57
+U 1 1 66B4419C
+P 14900 10100
+F 0 "RGB-57" H 14900 9800 50  0000 C BNN
+F 1 "SK6812MINI" H 14700 9750 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 14950 9800 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 15000 9725 50  0001 L TNN
+	1    14900 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-58
+U 1 1 66B454AD
+P 16050 10100
+F 0 "RGB-58" H 16050 9800 50  0000 C BNN
+F 1 "SK6812MINI" H 15850 9750 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 16100 9800 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 16150 9725 50  0001 L TNN
+	1    16050 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-59
+U 1 1 66B4621B
+P 17300 10100
+F 0 "RGB-59" H 17300 9800 50  0000 C BNN
+F 1 "SK6812MINI" H 17100 9750 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 17350 9800 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 17400 9725 50  0001 L TNN
+	1    17300 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-60
+U 1 1 66B47490
+P 18500 10100
+F 0 "RGB-60" H 18500 9800 50  0000 C BNN
+F 1 "SK6812MINI" H 18300 9750 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 18550 9800 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 18600 9725 50  0001 L TNN
+	1    18500 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI RGB-61
+U 1 1 66B47C34
+P 19700 10100
+F 0 "RGB-61" H 19700 9800 50  0000 C BNN
+F 1 "SK6812MINI" H 19500 9750 50  0000 L CNN
+F 2 "Keebio-Parts:SK6812-MINI-E" H 19750 9800 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 19800 9725 50  0001 L TNN
+	1    19700 10100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 9900 6250 9900
+Connection ~ 6250 9900
+Wire Wire Line
+	6250 9900 7600 9900
+Connection ~ 7600 9900
+Wire Wire Line
+	7600 9900 8800 9900
+Connection ~ 8800 9900
+Wire Wire Line
+	8800 9900 9950 9900
+Connection ~ 9950 9900
+Wire Wire Line
+	9950 9900 11200 9900
+Connection ~ 11200 9900
+Wire Wire Line
+	11200 9900 12400 9900
+Connection ~ 12400 9900
+Wire Wire Line
+	12400 9900 14850 9900
+Connection ~ 14850 9900
+Wire Wire Line
+	14850 9900 16000 9900
+Connection ~ 16000 9900
+Wire Wire Line
+	16000 9900 17250 9900
+Connection ~ 17250 9900
+Wire Wire Line
+	17250 9900 18450 9900
+Connection ~ 18450 9900
+Wire Wire Line
+	18450 9900 19650 9900
+Wire Wire Line
+	4900 10300 6250 10300
+Connection ~ 6250 10300
+Wire Wire Line
+	6250 10300 7600 10300
+Connection ~ 7600 10300
+Wire Wire Line
+	7600 10300 8800 10300
+Connection ~ 8800 10300
+Wire Wire Line
+	8800 10300 9950 10300
+Connection ~ 9950 10300
+Wire Wire Line
+	9950 10300 11200 10300
+Connection ~ 11200 10300
+Wire Wire Line
+	11200 10300 12400 10300
+Connection ~ 12400 10300
+Wire Wire Line
+	12400 10300 14850 10300
+Connection ~ 14850 10300
+Wire Wire Line
+	14850 10300 16000 10300
+Connection ~ 16000 10300
+Wire Wire Line
+	16000 10300 17250 10300
+Connection ~ 17250 10300
+Wire Wire Line
+	17250 10300 18450 10300
+Connection ~ 18450 10300
+Wire Wire Line
+	18450 10300 19650 10300
+Wire Wire Line
+	5150 10050 6100 10050
+Wire Wire Line
+	6500 10050 7450 10050
+Wire Wire Line
+	7850 10050 8650 10050
+Wire Wire Line
+	9050 10050 9800 10050
+Wire Wire Line
+	10200 10050 11050 10050
+Wire Wire Line
+	11450 10050 12250 10050
+Wire Wire Line
+	12650 10050 14700 10050
+Wire Wire Line
+	15100 10050 15850 10050
+Wire Wire Line
+	16250 10050 17100 10050
+Wire Wire Line
+	17500 10050 18300 10050
+Wire Wire Line
+	18700 10050 19500 10050
+Wire Wire Line
+	4450 8450 4450 9900
+Wire Wire Line
+	4450 9900 4900 9900
+Connection ~ 4900 9900
+Wire Wire Line
+	4400 8300 4400 10050
+Wire Wire Line
+	4400 10050 4750 10050
+Wire Wire Line
+	4250 8050 4250 10300
+Wire Wire Line
+	4250 10300 4900 10300
+Connection ~ 4900 10300
+Connection ~ 5000 8450
+Wire Wire Line
+	5000 8450 6350 8450
+Connection ~ 5000 8050
+Wire Wire Line
+	5000 8050 6350 8050
+Wire Wire Line
+	4250 8050 5000 8050
+Wire Wire Line
+	4450 8450 5000 8450
+Wire Wire Line
+	6100 8300 5150 8300
+Wire Wire Line
+	4750 8300 4400 8300
+$EndSCHEMATC

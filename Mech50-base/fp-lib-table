@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Mech50-keyboard)(type KiCad)(uri /Users/andywarburton/Documents/Mech50-keyboard)(options "")(descr ""))
+  (lib (name Robot)(type KiCad)(uri "/Users/andywarburton/Documents/Kicad PCBs/MECH 50/Mech50-base/robot.pretty")(options "")(descr ""))
+)
