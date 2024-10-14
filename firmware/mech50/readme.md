@@ -1,4 +1,4 @@
-# mech50
+# Mech50
 
 * Keyboard Maintainer: [Andy Warburton](https://github.com/andywarburton)
 * Hardware Supported: Elite-C
