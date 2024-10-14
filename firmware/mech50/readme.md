@@ -1,11 +1,7 @@
 # mech50
 
-![mech50](imgur.com image replace me!)
-
-*A short description of the keyboard/project*
-
 * Keyboard Maintainer: [Andy Warburton](https://github.com/andywarburton)
-* Hardware Supported: *The PCBs, controllers supported*
+* Hardware Supported: Elite-C
 * Hardware Availability: *Links to where you can find this hardware*
 
 Make example for this keyboard (after setting up your build environment):
